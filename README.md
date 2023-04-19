@@ -9,7 +9,6 @@
 <p align="center">
   <a href="#sobre">Sobre</a> •
   <a href="#como-usar">Como usar</a> •
-  <a href="#créditos">Créditos</a>
 </p>
 
 ## Sobre
