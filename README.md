@@ -1,4 +1,4 @@
-<h1 align="center">MinhasIdeiasPython</h1>
+<h1 align="center">Random Codes</h1>
 
 <p align="center">
   <a href="https://github.com/brunombs/MinhasIdeiasPython"><img src="https://img.shields.io/github/repo-size/brunombs/MinhasIdeiasPython" alt="Repo size"></a>
