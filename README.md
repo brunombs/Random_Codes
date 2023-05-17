@@ -9,6 +9,7 @@
 <p align="center">
   <a href="#sobre">Sobre</a> •
   <a href="#como-usar">Como usar</a> •
+  <a href="#sobre-mim">Sobre mim</a>
 </p>
 
 ## Sobre
