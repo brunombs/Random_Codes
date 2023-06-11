@@ -1,0 +1,27 @@
+
+Em Java, composição é um princípio de design orientado a objetos que permite criar relacionamentos entre classes, onde um objeto é composto por outros objetos como seus componentes. A composição permite criar estruturas complexas através da combinação de objetos mais simples, formando uma hierarquia de objetos interligados.
+
+Na composição, uma classe é responsável por criar e gerenciar instâncias de outras classes como parte de sua estrutura interna. Essas instâncias são conhecidas como objetos componentes ou membros da classe principal. A classe principal controla o ciclo de vida dos objetos componentes e é responsável por sua criação, destruição e uso.
+
+A composição é geralmente implementada por meio de atributos de objeto, onde a classe principal possui um ou mais atributos que são instâncias de outras classes. Esses atributos representam os objetos componentes e são criados quando a classe principal é instanciada.
+
+Um exemplo simples de composição em Java seria uma classe "Carro" que possui uma composição com a classe "Motor". O carro é composto pelo motor, onde o motor é um objeto componente do carro. O código Java abaixo ilustra essa composição:
+
+java
+Copy code
+public class Carro {
+    private Motor motor;
+
+    public Carro() {
+        motor = new Motor();
+    }
+
+    // Outros métodos e funcionalidades da classe Carro
+}
+
+public class Motor {
+    // Implementação da classe Motor
+}
+No exemplo acima, a classe "Carro" possui um atributo "motor" que é uma instância da classe "Motor". A classe "Carro" é responsável por criar e gerenciar o objeto "motor", que é essencial para o funcionamento do carro.
+
+A composição em Java permite criar relacionamentos fortes entre objetos, onde um objeto é fundamental para o funcionamento de outro. Ela é uma forma de reutilização de código e facilita a criação de estruturas complexas, dividindo o sistema em partes menores e mais gerenciáveis.
