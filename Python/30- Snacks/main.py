@@ -72,3 +72,4 @@ while True:
             break
         else:
             print("Resposta inválida. Por favor, responda com S ou N.")
+            
