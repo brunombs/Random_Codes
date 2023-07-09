@@ -1,0 +1,35 @@
+Em Java, a herança é um conceito fundamental da programação orientada a objetos (POO). Ela permite que uma classe herde características e comportamentos de outra classe, criando uma relação de hierarquia entre elas. A classe que é herdada é chamada de classe base, classe pai ou superclasse, enquanto a classe que herda é chamada de classe derivada, classe filha ou subclasse.
+
+Ao herdar de uma classe base, a classe derivada obtém acesso aos membros (atributos e métodos) públicos ou protegidos da classe base. Ela pode usar esses membros diretamente ou sobrescrevê-los para fornecer uma implementação personalizada. Além disso, a classe derivada pode adicionar seus próprios membros exclusivos.
+
+A herança em Java é implementada usando a palavra-chave extends. Ao definir uma classe derivada, você pode usar extends seguido do nome da classe base que deseja herdar. Aqui está um exemplo básico de uso de herança em Java:
+
+java
+class Animal {
+    public void fazerSom() {
+        System.out.println("O animal faz um som.");
+    }
+}
+
+class Cachorro extends Animal {
+    public void fazerSom() {
+        System.out.println("O cachorro late.");
+    }
+}
+
+public class ExemploHeranca {
+    public static void main(String[] args) {
+        Animal animal = new Animal();
+        animal.fazerSom();  // Saída: "O animal faz um som."
+
+        Cachorro cachorro = new Cachorro();
+        cachorro.fazerSom();  // Saída: "O cachorro late."
+    }
+}
+Neste exemplo, a classe Cachorro herda da classe Animal. A classe Cachorro sobrescreve o método fazerSom() da classe Animal para fornecer sua própria implementação. Quando chamamos fazerSom() em um objeto do tipo Cachorro, a implementação da classe Cachorro é executada.
+
+A herança permite reutilizar código, organizar classes em uma hierarquia e criar relações de especialização entre elas. No entanto, é importante usá-la com cuidado, considerando a coesão e o acoplamento das classes, para evitar hierarquias complexas ou excessivamente acopladas.
+
+
+
+
